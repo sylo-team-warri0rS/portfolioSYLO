@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poiret+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: #101010;
+    color: white;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header{
+    border-bottom: 1px solid #E2E8F0;
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+    
+}
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-btn {
+    font-size: 1.1em;
+    font-weight: 400;
+    background-color: #9b0000;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+}
+.nav-item {
+    margin-left: 35px;
+}
+
+.nav-link{
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+    padding: 10px 10px;
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: #10101071;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.nav-logo {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+.nav-logo span{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    padding: 3px 5px;
+    margin-right:1px;
+}
+#header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 40px;
+    background-color: #fff;
+    color: #101010;
+    border-bottom: 1px solid #E2E8F0;
+    
+    
+}
+#header img{
+    width: 40vw;
+    
+}
+section .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header-left {
+    display: grid;
+    align-content: space-between;
+}
+.btn {
+    background-color: #000;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.btn a{
+    font-size: 1.5em;
+}
+.btn .icon{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.btn1 a{
+    color: #fff;
+}
+.btn1 .icon {
+    color: #fff;
+}
+.btn2 {
+    background-color: #fff;
+    border: 2px solid #9b0000;
+}
+.btn2 a{
+    color: #9b0000;
+}
+.btn2 .icon {
+    color: #9b0000;
+}
+.btn2:hover {
+    background-color: #9b0000;
+}
+.btn2:hover a{
+    color: #fff;
+}
+.btn2:hover .icon {
+    color: #fff;
+}
+.btn3 {
+    background-color: #9b0000;
+}
+.btn3 a{
+    color: #fff;
+}
+.btn3 .icon {
+    color: #fff;
+}
+.btn3:hover {
+    background-color: #fff;
+    border: 2px solid #9b0000;
+}
+.btn3:hover a{
+    color: #9b0000;
+}
+.btn3:hover .icon {
+    color: #9b0000;
+}
+.introduction { 
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+section {
+    padding: 100px 40px;
+}
+section .title {
+    width: min-content;
+    font-size: 3em;
+    margin: auto;
+    color: rgb(180, 180, 180);
+    border-bottom: 1px rgb(180, 180, 180) solid;
+    margin-bottom: 100px;
+}
+section .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section .section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section .project-img{
+    max-width: 50%;
+    margin-right: 40px;
+}
+section .project-desc{
+    max-width: 40%;
+}
+#projects .buttons{
+    margin-top: 40px;
+}
+section .control {
+    font-size: 4em;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+.btn4 {
+    background-color: white;
+}
+.btn5 {
+    background-color: white;
+}
+.btn4 .icon {
+    color: #9b0000;
+}
+.btn4 a{
+    font-size: 1.2em;
+    color: #9b0000;
+}
+.btn5 .icon {
+    color: #000;
+}
+.btn5 a{
+    font-size: 1.2em;
+    color: #000;
+}
+@media only screen and (max-width: 768px) {
+    .nav-logo {
+        font-size: 0.8em;
+    }
+    .nav-logo span{
+        font-size: 1.1em;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #header {
+        display: block;
+    }
+    #header img, #header .header-left{
+        max-width: 100%;
+    }
+    #header img {
+        margin-bottom: 40px;
+    }
+    #header .header-left .introduction{
+        font-size: 1.3em;
+        max-width: 100%;
+    }
+    section .buttons .btn{
+        margin-right: 10px;
+        padding: 3px 5px;
+    }
+    section .buttons .btn a{
+        font-size: 0.8em;
+    }
+    section .buttons .btn .icon{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #projects {
+        padding: 100px 10px;
+    }
+    #projects .title{
+        font-size: 1.5em;
+    }
+    #projects .section-content {
+        display: block;
+    }
+    #projects .section-content #project-desc {
+        border: 1px white solid;
+        padding: 15px;
+    }
+    #projects .section-content .project-img{
+        display: block;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    #projects .control {
+        font-size: 2em;
+        margin: 10px 10px;        
+    }
+
+}
